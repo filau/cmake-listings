@@ -1,8 +1,10 @@
 # CMake support for Listings
 
-This is an extension to the [LaTeX package `Listings`](https://ctan.org/pkg/listings), that implements support for the CMake language.
+This is an extension to the [LaTeX package `Listings`](https://ctan.org/pkg/listings), that implements syntax highlighting for the CMake language.
 
 To use it, simply `\usepackage{cmake-listings}` in your LaTeX file, along with your usual `listings` environment, making sure that [`cmake-listings.sty`](./cmake-listings.sty) is reachable either in your LaTeX path or in your working directory.
+
+The keywords to highlight have been selected based on the syntax highlighting capabilities of [vscode-cmake-tools](https://github.com/microsoft/vscode-cmake-tools).
 
 
 ## Bare minimum working example
